@@ -122,7 +122,7 @@ def get_route(hostname):
                     # Fill in end
                 except herror:  # if the host does not provide a hostname
                     # Fill in start
-                    tracelist1.append(destAddr)
+                    tracelist1.append("Hostname not found")
                     # Fill in end
                 if types == 11:
                     bytes = struct.calcsize("d")
